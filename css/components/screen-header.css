@@ -1,0 +1,14 @@
+.screen-header {
+  margin-top: 100px;
+  padding: 20px 0px;
+  text-align: center;
+}
+
+.screen-header span {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.screen-header i {
+  margin-left: 20px;
+}

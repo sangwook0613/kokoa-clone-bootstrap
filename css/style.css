@@ -6,9 +6,12 @@
 /* Components */
 @import "components/top-bar.css";
 @import "components/user-component.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
 
 /* Screens */
 @import "screens/login.css";
+@import "screens/main.css";
 
 body {
   font-family: "Open Sans", sans-serif;
