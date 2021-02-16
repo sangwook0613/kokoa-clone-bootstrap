@@ -22,40 +22,66 @@
       </div>
     </div>
 
-    <div class="container-fluid main-screen">
-      <div class="row main-screen__row">
-        <div
-          class="nav-bar col-1 d-flex flex-column align-items-center justify-content-between"
-        >
-          <div class="d-flex flex-column nav-bar__icons">
-            <a href="friends.html">
-              <i class="fas fa-user fa-lg"></i>
-            </a>
-            <a href="chats.html">
-              <i class="far fa-comment fa-lg"></i>
-            </a>
-            <a href="more.html">
-              <i class="fas fa-ellipsis-h fa-lg"></i>
-            </a>
-          </div>
-          <div class="d-flex flex-column nav-bar__icons">
-            <i class="far fa-bell fa-lg"></i>
-            <a href="settings.html">
-              <i class="fas fa-cog fa-lg"></i>
-            </a>
+    <div
+      class="nav-bar d-flex flex-column align-items-center justify-content-between"
+    >
+      <div class="d-flex flex-column nav-bar__icons">
+        <a href="friends.html">
+          <i class="fas fa-user fa-lg"></i>
+        </a>
+        <a href="chats.html">
+          <i class="far fa-comment fa-lg"></i>
+        </a>
+        <a href="more.html">
+          <i class="fas fa-ellipsis-h fa-lg"></i>
+        </a>
+      </div>
+      <div class="d-flex flex-column nav-bar__icons">
+        <i class="far fa-bell fa-lg"></i>
+        <a href="settings.html">
+          <i class="fas fa-cog fa-lg"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="main-screen">
+      <header
+        class="screen-header d-flex justify-content-between align-items-center"
+      >
+        <span class="fw-bold fs-3">친구</span>
+        <div class="">
+          <i class="fas fa-search fa-lg"></i>
+          <i class="fas fa-user-plus fa-lg"></i>
+        </div>
+      </header>
+
+      <div class="user-component">
+        <div class="user-component__box d-flex align-items-center">
+          <img
+            src="./images/profile_img.jpg"
+            alt="profile-img"
+            class="user-component__avatar--xl"
+          />
+          <div class="user-component__info">
+            <div class="user-component__name fw-bold fs-4">Simon</div>
+            <div class="user-component__comment">Hello~</div>
           </div>
         </div>
-        <div class="col row" style="margin-top: 20px">
-          <div class="col row screen-header">
-            <span class="col-2">친구</span>
-            <div class="col-2 offset-8">
-              <i class="fas fa-search fa-lg"></i>
-              <i class="fas fa-user-plus fa-lg"></i>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-2">IMG</div>
-            <div class="col">DASDADS</div>
+        <div
+          class="friends-tags d-flex justify-content-between align-items-center"
+        >
+          <span>친구 613</span>
+          <i class="fas fa-chevron-up"></i>
+        </div>
+        <div class="user-component__box-friends d-flex align-items-center">
+          <img
+            src="./images/profile_img.jpg"
+            alt="profile-img"
+            class="user-component__avatar--lg"
+          />
+          <div class="user-component__info">
+            <div class="user-component__name fw-bold">Simon</div>
+            <div class="user-component__comment">Hello~</div>
           </div>
         </div>
       </div>

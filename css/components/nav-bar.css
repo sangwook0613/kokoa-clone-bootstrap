@@ -1,5 +1,10 @@
 .nav-bar {
   background-color: lightgray;
+  position: fixed;
+  left: 0;
+  padding: 10px 30px;
+  height: 100vh;
+  width: 50px;
 }
 
 .nav-bar i {
