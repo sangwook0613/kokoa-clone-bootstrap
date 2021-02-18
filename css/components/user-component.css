@@ -24,10 +24,26 @@
   border-radius: 30px;
 }
 
+.user-component__avatar--xs {
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+}
+
 .user-component__avatar--login {
   width: 110px;
   height: 110px;
   border-radius: 40px;
+}
+
+.user-component__avatar-group {
+  width: 65px;
+  height: 65px;
+}
+
+.user-component__avatar-group img:first-child,
+.user-component__avatar-group img:nth-child(3) {
+  margin-right: 3px;
 }
 
 .user-component__info {
@@ -37,4 +53,14 @@
 
 .user-component__box-friends .user-component__name {
   font-size: 18px;
+}
+
+.user-component__box-friends .user-component__comment {
+  font-size: 14px;
+}
+
+.user-component__time {
+  padding-top: 10px;
+  color: var(--gray-color);
+  font-size: 12px;
 }
